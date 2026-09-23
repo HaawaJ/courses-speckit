@@ -106,9 +106,9 @@ git checkout -b dev
 
 | File | Default `name` | Change to |
 |------|----------------|-----------|
-| `package.json` (root) | `speckit-app` | e.g. `myapp-speckit` |
-| `frontend/package.json` | `speckit-app-frontend` | e.g. `myapp-frontend` |
-| `backend/package.json` | `speckit-app-backend` | e.g. `myapp-backend` |
+| `package.json` (root) | `coursesapp-speckit` | e.g. `myapp-speckit` |
+| `frontend/package.json` | `coursesapp-speckit-frontend` | e.g. `myapp-frontend` |
+| `backend/package.json` | `coursesapp-speckit-backend` | e.g. `myapp-backend` |
 
 Then do a **project-wide search-and-replace** for these placeholder strings across the unzipped tree (IDE find-in-files or `rg`). You are not rewriting every file — only files that contain the string will change; most rules and framework docs will not.
 
